@@ -10,4 +10,10 @@ console.log(typeof nota1)
 
 let media = (nota1 + nota2 + nota3) / 3
 
-console.log(media)
+console.log(media) 
+
+if(media >= 7){
+    alert('Passou!')
+} else{
+    alert('Não passou')
+}
