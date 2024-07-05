@@ -21,6 +21,6 @@ const salvarTarefa = (tarefa) => {
 const carregarTarefas  = () => {
     const tarefa = JSON.parse(localStorage.getItem('tarefa')) || [];
     tarefa.forEach((tarefa, index) => {
-        const cartao =
+        const cartao = document.createElement('div');
     });
 };
